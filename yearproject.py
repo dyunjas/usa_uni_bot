@@ -4,7 +4,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from telebot import types
 from random import choice
 
-bot = telebot.TeleBot('6727085832:AAGFeJytLGc8DV6W9jlHC33Na-nosVWuSWk')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def start(message):
